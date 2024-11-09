@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      /* Basic Options */
+      "target": "es6",                          // Target JavaScript version
+      "module": "commonjs",                      // Module system to use
+      "rootDir": "./src",                        // Directory of TypeScript files
+      "outDir": "./dist",                        // Directory for compiled files
+      "strict": true,                            // Enable all strict type-checking options
+  
+      /* Additional Options */
+      "esModuleInterop": true,                   // Enable compatibility with ES modules
+      "forceConsistentCasingInFileNames": true,  // Ensure case consistency in imports
+      "skipLibCheck": true,                      // Skip type checking for all declaration files
+      "noImplicitAny": true,                     // Raise error on expressions with an implied 'any' type
+      "resolveJsonModule": true,                 // Enable JSON imports
+  
+      /* Experimental Options */
+      "experimentalDecorators": true,            // Enable experimental support for decorators
+      "emitDecoratorMetadata": true              // Emit metadata for decorated code (required by some libraries)
+    },
+    "include": ["src/**/*.ts"],                  // Include all TypeScript files in the src folder
+    "exclude": ["node_modules", "dist"]          // Exclude unnecessary folders
+  }
+  
